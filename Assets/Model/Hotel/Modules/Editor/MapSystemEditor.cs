@@ -11,9 +11,7 @@ public class MapSystemEditor: Editor
         // Add a button to the Inspector
         if (GUILayout.Button("Update Halls"))
         {
-            HallModule[] modules = FindObjectsOfType<HallModule>();
-            foreach (var m in modules)
-                m.UpdateModule(modules);
+            (target as MapSystem)?.BuildMap();
         }
     }
 }
