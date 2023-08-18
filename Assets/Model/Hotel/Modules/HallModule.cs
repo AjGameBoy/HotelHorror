@@ -51,7 +51,7 @@ namespace Model.Hotel.Modules
                 {
                     x.isOpen = false;
                     x.hasLight = false;
-                    x.isDoor = doors.Count(d => d.sort == x.sort) > 0;
+                    x.isDoor = doors.Count(d => d.direction == x.side && d.sort == x.sort) > 0;
                     closedWalls.Add(x.side);
                 }
                 else if (neighbors.Contains(x.side))

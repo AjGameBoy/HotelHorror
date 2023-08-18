@@ -15,7 +15,7 @@ namespace Model.Hotel.Modules
 
         private float _lastEditorUpdateTime = 0;
 
-        private Light light
+        private Light p_light
         {
             get
             {
@@ -52,13 +52,13 @@ namespace Model.Hotel.Modules
             if (_flickerTimer < 0)
             {
                 _flickerTimer = Random.Range(0.001f, 0.5f);
-                SetLight(!light.enabled);
+                SetLight(!p_light.enabled);
             }
         }
 
         private void SetLight(bool on)
         {
-            light.enabled = on;
+            p_light.enabled = on;
             lightMesh.material = on ? lightOnMaterial : lightOffMaterial;
         }
 

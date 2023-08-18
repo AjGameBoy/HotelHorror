@@ -461,7 +461,7 @@ PrefabInstance:
     - target: {fileID: 8722868775588247576, guid: dde8141e1e4bcee4cba461616522a118,
         type: 3}
       propertyPath: sort
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9095306824446626024, guid: dde8141e1e4bcee4cba461616522a118,
         type: 3}
@@ -631,7 +631,7 @@ PrefabInstance:
     - target: {fileID: 8722868775588247576, guid: dde8141e1e4bcee4cba461616522a118,
         type: 3}
       propertyPath: sort
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9095306824446626024, guid: dde8141e1e4bcee4cba461616522a118,
         type: 3}

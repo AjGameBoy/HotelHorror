@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Mini_First_Person_Controller.Scripts;
+using UnityEngine;
 
 public class FirstPersonLook : MonoBehaviour
 {
